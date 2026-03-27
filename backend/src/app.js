@@ -7,6 +7,6 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.use("/api/messages", messageRoutes);
+app.use("/api/scheduled-messages", messageRoutes);
 
 export default app;
