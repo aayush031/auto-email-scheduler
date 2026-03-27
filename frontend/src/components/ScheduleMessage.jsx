@@ -29,7 +29,7 @@ export default function ScheduleMessage() {
 
       const updatedForm = {
         ...form,
-        sendAt: utcTime   // ✅ IMPORTANT FIX
+        sendAt: utcTime   
       };
 
       await api.post("/messages", updatedForm);
