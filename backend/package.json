@@ -12,7 +12,6 @@
   "license": "ISC",
   "description": "Auto Message Generator Backend",
   "dependencies": {
-    "@sendgrid/mail": "^8.1.6",
     "cors": "^2.8.6",
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
